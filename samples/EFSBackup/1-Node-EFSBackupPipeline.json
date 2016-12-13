@@ -15,6 +15,7 @@
             "instanceType": "#{myInstanceType}",
             "name": "EC2ResourceObj",
             "type": "Ec2Resource",
+            "imageId": "ami-0188776c",
             "securityGroupIds": [
                 "#{mySrcSecGroupID}",
                 "#{myBackupSecGroupID}"

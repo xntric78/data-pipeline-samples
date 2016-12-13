@@ -15,6 +15,7 @@
             "instanceType": "#{myInstanceType}",
             "name": "EC2Resource1",
             "type": "Ec2Resource",
+            "imageId": "ami-0188776c",
             "securityGroupIds": [
                 "#{mySrcSecGroupID}",
                 "#{myBackupSecGroupID}"
@@ -28,6 +29,7 @@
             "instanceType": "#{myInstanceType}",
             "name": "EC2Resource2",
             "type": "Ec2Resource",
+            "imageId": "ami-0188776c",
             "securityGroupIds": [
                 "#{mySrcSecGroupID}",
                 "#{myBackupSecGroupID}"
